@@ -4,9 +4,7 @@ fun main() {
     var tinggi = 11
     var volume : Double
     //to do
-    val pa: Float = panjang.toFloat()
-    val ti: Float = tinggi.toFloat()
-    volume = hitungVolume(pa.toDouble(),lebar, ti.toDouble()).toString().toDouble()
+    volume = hitungVolume(panjang.toDouble(),lebar, tinggi.toDouble()).toString().toDouble()
     println("Volume dari balok yang mempunyai panjang $panjang, lebar $lebar, dan tinggi $tinggi ini adalah $volume")
 }
 fun hitungVolume(p:Double,l:Double,t:Double):Float {
