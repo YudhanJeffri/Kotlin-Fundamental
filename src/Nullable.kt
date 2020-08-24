@@ -1,5 +1,6 @@
 fun main() {
-    val a = "SMK Telkom"
-    val wordLength = a.length
-    println("Jumlah kata dari string $a sebanyak $wordLength")
+    val text: String? = null
+    val textNull = text ?: "Smk Telkom"
+    val textLength = textNull.length
+    println("Jumlah kata dari string $textNull sebanyak $textLength")
 }
